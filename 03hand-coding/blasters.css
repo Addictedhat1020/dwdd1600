@@ -1,0 +1,35 @@
+body {
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+}
+/*header*/
+header {
+    background-color: #15e6f0;
+    padding: 1rem 3vw;
+}
+header h1 {
+    color: #000000;
+    margin: 0;
+}
+header h3 {
+    color: #000000;
+    margin:0;
+    letter-spacing: .74px;
+}
+/*navigation*/
+nav {
+    background-color: #0400f0;
+}
+nav ul {
+    color: #00f036;
+    display: flex;
+}
+nav a {
+    color: #00f036;
+    margin: 0;
+    text-decoration: none;
+    padding:0;
+    display: block;
+}
