@@ -37,8 +37,6 @@ nav a {
     font-weight: 800;
     font-size: 1.3rem;
     display: block;
-    background-color: #0400f0;
-    border: 2px solid #000000;
 }
 nav a:hover {
     color: #fff;
@@ -50,6 +48,9 @@ nav li.on a {
 /*main*/
 main {
     padding: 1rem 2vw;
+    border: 60px solid #000000;
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
 }
 main h1 {
     color: #0400f0;
@@ -108,3 +109,4 @@ footer {
 footer a {
     color:#15e6f0;
 }
+
