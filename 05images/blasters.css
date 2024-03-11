@@ -115,6 +115,14 @@ div.misfig {
     display: flex;
     flex-wrap: wrap;
 }
+div.misfig figure {
+    margin: .5rem 2% 0 0;
+}
+div.misfig figcaption {
+    text-align: center;
+    font-size: .9rem;
+    color: #000
+}
 
 /*footer*/
 footer {
