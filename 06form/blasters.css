@@ -1,0 +1,140 @@
+body {
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+}
+/*header*/
+header {
+    background-color: #000000;
+    padding: 2rem 3vw;
+}
+header h1 {
+    color: #15e6f0;
+    margin: 0;
+    text-align: center;
+}
+header p {
+    color: #15e6f0;
+    margin:0;
+    letter-spacing: .74px;
+    text-align: center;
+}
+/*navigation*/
+nav {
+    background-color: #000000;
+    height: auto;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0 3vw;
+    margin:0;
+    display: flex;
+}
+nav a {
+    color: #15e6f0;
+    text-decoration: none;
+    padding:.7rem 1.1rem;
+    font-weight: 800;
+    font-size: 1.3rem;
+    display: block;
+}
+nav a:hover {
+    color: #fff;
+}
+nav li.on a {
+    color: #000000;
+    background-color: #15e6f0;
+}
+/*main*/
+main {
+    padding: 1rem 2vw;
+    border: 60px solid #000000;
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
+}
+main h1 {
+    color: #0400f0;
+}
+main h2 {
+    color: #5d01ea;
+    margin-bottom: 0.5rem;
+}
+main h3 {
+    color: #5d01ea;
+}
+main p {
+    color: #000000;
+    margin: 0 0 .3rem 0;
+}
+main ul {
+    list-style-type: circle;
+}
+main ul li {
+    line-height: 130%;
+    margin-bottom: .7rem;
+    font-size: 1.1rem;
+}
+main ol {
+    padding: .4rem 2vw
+}
+main dl dt {
+    font-weight: 800;
+}
+main dl dd {
+    font-size: .9rem;
+}
+main address {
+    font-style: normal;
+    padding: .6rem;
+    width: 12rem;
+    color: #15e6f0;
+    background-color: #000000;
+    border: 2px solid #15e6f0;
+    border-radius: .7rem
+}
+main a {
+    color: #0400f0;
+}
+main a:hover {
+    color: #00f036;
+}
+figure.something {
+    width: 40%;
+    margin: 0 0 1% 1%;
+    float: right;
+}
+figure.something img {
+    height: auto;
+    width: 100%;
+}
+figure.something figcaption {
+    text-align: center;
+    font-size: .8rem;
+}
+div.misfig {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+}
+div.misfig figure {
+    margin: .5rem 2% 0 0;
+}
+div.misfig figcaption {
+    text-align: center;
+    font-size: .9rem;
+    color: #000
+}
+
+/*footer*/
+footer {
+    background-color: #000000;
+    text-align: center;
+    color: #15e6f0;
+    padding: .5rem 0;
+    font-size: .9rem;
+    clear: both;
+}
+footer a {
+    color:#15e6f0;
+}
