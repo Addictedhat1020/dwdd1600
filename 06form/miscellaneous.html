@@ -31,13 +31,13 @@
         <!--put main stuff here-->
         <p>In the miscellaneous you will find information that does not fit into any of the categories, but is still important.</p>
         <h2>Issue Report</h2>
-        <form method="get" class="?" action="thanks.html">
+        <form method="get" class="form" action="thanks.html">
             <fieldset>
                 <legend>Information</legend>
                 <label>First Name <input type="text" name="fname" required></label>
                 <label>Last Name <input type="text" name="lname" required></label>
-                <label>Phone Number <input type="tel" name="phone" required></label>
-                <label>Email <input type="email" name="email" required></label>
+                <label>Phone Number <input type="tel" name="phone" required placeholder="888-888-8888"></label>
+                <label>Email <input type="email" name="email" required placeholder="somebody13@something.com"></label>
             </fieldset>
             <fieldset>
                 <legend>Describe the issue</legend>
@@ -54,7 +54,7 @@
             </fieldset>
             <fieldset>
                 <legend>How Bad Is the Issue</legend>
-                <lable><input type="radio" name="method" value="not-bad">Not Bad</lable>
+                <label><input type="radio" name="method" value="not-bad">Not Bad</label>
                 <label><input type="radio" name="method" value="slightly-bad">Slightly Bad</label>
                 <label><input type="radio" name="method" value="bad"> Bad</label>
                 <label><input type="radio" name="method" value="very-bad">Very Bad</label>
@@ -69,6 +69,11 @@
                     <option value="bottom">In the bottom of the page</option>
                 </select>
             </fieldset>
+            <fieldset>
+                <legend>Additional Comments</legend>
+                <textarea name="comments"></textarea>
+            </fieldset>
+            <input type="submit" value="Send Issue Report">
         </form>
         <h2>Photo Gallery</h2>
         <!--8 down 0 to go-->

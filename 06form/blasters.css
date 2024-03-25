@@ -126,6 +126,44 @@ div.misfig figcaption {
     color: #000
 }
 
+.form fieldset {
+    border: 1px solid #15e6f0;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+.form legend {
+    color: #15e6f0;
+    font-size: .9rem;
+}
+.form label {
+    margin: .5rem;
+}
+.form label, .form select, .form [type=text], .form [type=tel], .form [type=email], .form textarea {
+    display: block;
+}
+.form [type=text], .form [type=tel], .form [type=email], .form select, .form textarea {
+    border: 1px solid #000;
+    border-radius: .4rem;
+    padding: .4rem;
+    width: 240px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 500;
+}
+.form textarea {
+    height: 5rem;
+    width: 15rem;
+}
+.form :required {
+    background-color: rgba(235, 45, 64, 0.17)
+}
+.form [type=submit] {
+    background-color: #000;
+    border: 1px solid #15e6f0;
+    color: #15e6f0;
+    border-radius: 10px;
+    padding: 1rem 2rem;
+    margin: 1rem 0 0 2vw;
+}
 /*footer*/
 footer {
     background-color: #000000;
