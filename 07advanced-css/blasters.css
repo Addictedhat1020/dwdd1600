@@ -5,10 +5,16 @@ body {
     font-weight: 500;
     font-style: normal;
 }
+/*line 39 to 46 line 248*/
 /*header*/
 header {
     background-color: #000000;
     padding: 2rem 3vw;
+    display: flex;
+    align-items: flex-end;
+}
+header div .logo {
+    padding: 1vw;
 }
 header h1 {
     color: #15e6f0;
@@ -23,6 +29,26 @@ header p {
 }
 /*navigation*/
 @media only screen and (max-width: 600px) {
+    nav ul {
+        margin: 0;
+        padding: 0 2vw;
+        list-style-type: none;
+    }
+    nav a {
+        display: block;
+        padding: .8rem;   /*ajust later to better fit*/
+        text-decoration: none;
+        font-weight: 800;
+        text-transform: uppercase;    /*Expiriment with*/
+        text-align: center;
+        border-bottom: solid 1px #000; /*color here*/
+        background-color: #000;
+        color: #15e6f0; /*see if this works*/
+    }
+    nav .on a {
+        background-color: #15e6f0;
+        color: #000;
+    }
 
 }
 
@@ -216,4 +242,9 @@ footer {
 }
 footer a {
     color:#15e6f0;
+}
+
+header, nav, main, footer {
+    max-width: 64rem;   /*Expriement with this*/
+    margin: 0 auto;
 }
