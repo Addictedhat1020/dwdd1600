@@ -256,23 +256,30 @@ table.recblrs {
     width: 100%;
     border-collapse: collapse;
     background-color: #000;
+    color: #15e6f0;
 }
 table.recblrs th {
-    background-color: #5d01ea;
+    background-color: #000;
     color: #15e6f0;
     padding: .5rem 1vw;
     text-align: left;
 }
 table.recblrs td {
-    color: #15e6f0;
     padding: .4rem 1vw;
 }
-table.recblrs tr {
-    color: #15e6f0;
-}
-table.recblrs tr:nth-child(odd) {
+
+table.recblrs tr:nth-child(even) {
     background-color: #15e6f0;
-    color: #000;  /*what*/
+    color: #000;  
+}
+table.recblrs tr:hover {
+    color: rgba(21, 229, 240, 0.5);
+}
+table.recblrs tr:nth-child(even):hover {
+    color: rgba(21, 37, 38, 0.6);
+}
+iframe {
+    width: 100%;
 }
 
 
