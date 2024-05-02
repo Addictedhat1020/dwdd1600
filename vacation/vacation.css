@@ -1,0 +1,8 @@
+*{box-sizing: border-box}
+header {
+    background-color: red;
+    color: green;
+}
+.gallery {
+    border: 1px solid #000;
+}
