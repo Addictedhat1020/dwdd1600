@@ -69,6 +69,7 @@ header p {
     }
     nav .tbd a {
         background-color: #c787d6;
+        background: linear-gradient(to bottom, #c787d6, rgba(208, 137, 224, .9));
         color: #000;
     }
 }
@@ -97,7 +98,88 @@ main ul li {
     margin-bottom: .8rem;
     font-size: 1.1rem;
 }
-
+main ol {
+    padding: .4rem 2vw;
+}
+main dl dt {
+    font-weight: 800;
+}
+main dl dd {
+    font-size: .9rem;
+}
+main address {
+    font-style: normal;
+    padding: .6rem;
+    width: 12rem;
+    color: #c787d6;
+    background-color: #000;
+    border: 2px solid #c787d6;
+    border-radius: .7rem;
+}
+main a:hover {
+    color: #C51D34;
+}
+main a {
+    color: #1235f4;
+}
+/*Hero image*/
 .gallery {
     border: 1px solid #000;
+}
+/*Gallery 177*/
+.ai fieldset {
+    border: 1px solid #c787d6;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+.ai legend {
+    color: #000;
+    font-size: .9rem;
+}
+.ai label {
+    margin: .5rem;
+}
+.ai label, .ai select, .ai[type=text], .ai[type=email], .ai textarea {
+    display: block;
+}
+.ai [type=text], .ai [type=email], .ai select, .ai textarea {
+    border: 1px solid #000;
+    border-radius: .4rem;
+    padding: .4rem;
+    width: 250px;
+    font-family: "Sora", sans-serif;
+    font-weight: 500;
+}
+.ai textarea {
+    height: 5rem;
+    width: 15rem;
+}
+.ai :required {
+    background-color: rgba(255, 0, 25, 0.11)
+}
+.ai [type=submit] {
+    background-color: #000;
+    color: #c787d6;
+    border: 1px solid #c787d6;
+    border-radius: 10px;
+    padding: 1rem 2rem;
+    margin: 1rem 0 0 2vw;
+}
+iframe {
+    width: 100%;
+}
+footer {
+    background-color: #000;
+    color: #c787d6;
+    text-align: center;
+    padding: .5rem 0;
+    font-size: .9rem;
+    clear: both;
+}
+footer a {
+    color: #1235f4;
+}
+header, nav, main, footer {
+    max-width: 100rem;
+    margin: 0 auto;
 }
