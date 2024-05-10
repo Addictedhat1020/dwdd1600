@@ -122,11 +122,30 @@ main a:hover {
 main a {
     color: #1235f4;
 }
-/*Hero image*/
+/*Hero image here*/
 .gallery {
     border: 1px solid #000;
 }
-/*Gallery 177*/
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+}
+div.gallery figure {
+    margin: .5rem 2% 0 0;
+}
+div.gallery figcaption {
+    text-align: center;
+    font-size: .9rem;
+    color: #000;
+}
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+.gallery img:hover {
+    box-shadow: 0 0 15px #1235f4;
+}
 .ai fieldset {
     border: 1px solid #c787d6;
     border-radius: 5px;
@@ -139,10 +158,10 @@ main a {
 .ai label {
     margin: .5rem;
 }
-.ai label, .ai select, .ai[type=text], .ai[type=email], .ai textarea {
+.ai label, .ai select, .ai[type=text], .ai[type=email], .ai textarea, .ai[type=tel] {
     display: block;
 }
-.ai [type=text], .ai [type=email], .ai select, .ai textarea {
+.ai [type=text], .ai [type=email], .ai[type=tel], .ai select, .ai textarea {
     border: 1px solid #000;
     border-radius: .4rem;
     padding: .4rem;
@@ -157,6 +176,9 @@ main a {
 .ai :required {
     background-color: rgba(255, 0, 25, 0.11)
 }
+.ai select {
+    padding: 30rem, .4rem, .4rem, .4rem;
+}
 .ai [type=submit] {
     background-color: #000;
     color: #c787d6;
@@ -165,6 +187,59 @@ main a {
     padding: 1rem 2rem;
     margin: 1rem 0 0 2vw;
 }
+
+
+
+
+.ai fieldset {
+    border: 1px solid #15e6f0;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+.ai legend {
+    color: #15e6f0;
+    font-size: .9rem;
+}
+.ai label {
+    margin: .5rem;
+}
+.ai label, .ai select, .ai [type=text], .ai [type=tel], .form [type=email], .form textarea {
+    display: block;
+}
+.form [type=text], .form [type=tel], .form [type=email], .form select, .form textarea {
+    border: 1px solid #000;
+    border-radius: .4rem;
+    padding: .4rem;
+    width: 240px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 500;
+}
+.form textarea {
+    height: 5rem;
+    width: 15rem;
+}
+.form :required {
+    background-color: rgba(235, 45, 64, 0.17)
+}
+.form [type=submit] {
+    background-color: #000;
+    border: 1px solid #15e6f0;
+    color: #15e6f0;
+    border-radius: 10px;
+    padding: 1rem 2rem;
+    margin: 1rem 0 0 2vw;
+}
+
+
+
+
+
+
+
+
+
+
+
 iframe {
     width: 100%;
 }

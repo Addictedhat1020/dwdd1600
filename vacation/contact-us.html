@@ -33,13 +33,34 @@
         <p>Request Additional Information</p>
         <form method="get" class="ai" action="thanks.html">
             <fieldset>
-                <legend>Something</legend>
-                <label>
-                    "First Name "<input type="text" name="fname" required>
-                </label>
+                <legend>Information</legend>
+                <label>First Name <input type="text" name="fname" required></label>
+                <label>Last Name <input type="text" name="lname" required></label>
+                <label>Email <input type="email" name="email" required></label>
+                <label>Phone <input type="tel" name="phone"></label>
+                <label>Prefered Contact</label>
+                <label><input type="radio" name="method" value="email">Email</label>
+                <label><input type="radio" name="method" value="phone">Phone</label>
+                <label><input type="radio" name="method" value="any">Any</label>
             </fieldset>
-
-
+            <fieldset>
+                <legend>Details</legend>
+                <label>What is the Information you want? <input type="text" name="info" required></label>
+                <label>What do you want more Information on?<select name="mi">
+                    <option value="none">none</option>
+                    <option value="Paris">Paris</option>
+                    <option value="Hawaii">Hawaii</option>
+                    <option value="London">London</option>
+                    <option value="Grand Canyon">Grand Canyon</option>
+                    <option value="Rome">Rome</option>
+                    <option value="Yellowstone">Yellowstone</option>
+                </select>
+            </label>
+            </fieldset>
+            <fieldset>
+                <legend>Additional Information</legend>
+                <textarea name="addinfo"></textarea>
+            </fieldset>
 
 
             <input type="submit" value="Send Additional Information">
